@@ -1,0 +1,29 @@
+---
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Simple LM Model Builder
+
+This Shiny App helps you to understand how a simple linear regression model is built. You add points to the model by clicking on the plot area and the model builder creates a new linear regression model for you. You need at least two points to build a model. When a model has been built the app shows the regression line (red) in the plotting area and a table containing the coefficients of the model `Y = beta_0 + beta_1 * X`.
+
+### Inputs
+
+* Adding a point: click on the plotting area
+
+* Removing a point: double click on a point or select points by dragging with the mouse
+
+* Clearing all points: click 'Clear points' button.
+
+* Changing the X-scale or the Y-scale: use the slider to select the scale. The if the slider value is n, the scale is `10^n`.
+
+* Shift the X-origin or the Y-origin: use the slider to position the origin.
+
+### About the App
+
+This App was created in course Developing Data Products of Johns Hopkins University by Esko Nuutila (enu@iki.fi) 2017-02-12.
