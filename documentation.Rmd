@@ -27,3 +27,5 @@ This Shiny App helps you to understand how a simple linear regression model is b
 ### About the App
 
 This App was created in course Developing Data Products of Johns Hopkins University by Esko Nuutila (enu@iki.fi) 2017-02-12.
+
+The source code is available in Github [https://github.com/arrarra/simplelmbuilder](https://github.com/arrarra/simplelmbuilder).
